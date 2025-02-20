@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aval3"
+version = "0.1.0"
+description = ""
+authors = ["DuarteVonFaul <duarteriograndense@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+numpy = "^2.2.3"
+matplotlib = "^3.10.0"
+seaborn = "^0.13.2"
+scikit-learn = "^1.6.1"
+jupyter = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
